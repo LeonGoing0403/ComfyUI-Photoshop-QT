@@ -28,7 +28,7 @@
 对 `activeWorkflow` 和 `changeTracker` 状态进行空值判断，以确保其正常运行。具体代码逻辑如下：
 ``` javascript
     activeWorkflow?.changeTracker?.store()
-    ```
+```
 
 1.  找到 ComfyUI 前端项目的静态文件目录。例如，我的地址是：
 
