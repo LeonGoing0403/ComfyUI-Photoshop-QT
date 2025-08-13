@@ -14,7 +14,7 @@ After a year-long journey exploring the ComfyUI ecosystem, I developed this prof
 - 🚀 **Development:** Started March 2025
 ### ⭐ Core Features
 
-> Lightweight yet powerful, enhancing your workflow
+> One step ahead, inspiration takes shape as images
 
 1. 🎛️ **Modular Design**
    - 10 preset input/output modules
