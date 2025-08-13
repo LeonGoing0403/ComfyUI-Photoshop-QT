@@ -1,6 +1,47 @@
 # ComfyUI-Photoshop-QTLeon Plugin Guide
+![Plugin Banner](images/top.jpg)
 
 [中文](README.md) | English
+
+## 🌟 Project Introduction
+
+> 🎨 Creating the Perfect Bridge Between ComfyUI and Photoshop
+
+### 📝 Background
+
+After a year-long journey exploring the ComfyUI ecosystem, I developed this professional plugin connecting Photoshop and ComfyUI. As a streamlined version of an enterprise-level project, it maintains core functionalities while being more lightweight and user-friendly.
+
+- 🚀 **Development:** Started March 2025
+### ⭐ Core Features
+
+> Lightweight yet powerful, enhancing your workflow
+
+1. 🎛️ **Modular Design**
+   - 10 preset input/output modules
+   - Custom workflow packaging support
+   
+2. 🖼️ **Visual Management**
+   - Built-in PS result manager
+   - Real-time image preview
+   
+3. 🔄 **Parameter Control**
+   - One-click parameter reuse
+   - Seamless workflow integration
+   
+4. 📊 **System Features**
+   - Complete operation logging
+   - Bilingual interface (CN/EN)
+   
+📽️ **Check out the demo video below for more exciting features!**
+
+### 🔔 Open Source Notes
+
+> Due to time constraints, v1 version currently only supports core features. More features will be continuously optimized and gradually added to the open-source version.
+
+- 🚫 Removed: Enterprise member features such as member login, server verification, and enterprise API direct image generation
+- 💬 Support: Feedback is welcome on any issues
+
+
 
 ## 1. (Required) Install Plugin and Dependencies
 
@@ -132,3 +173,9 @@ Start Comfyui, open PS, and access the plugin through the Extensions menu.
 
 ![Plugin main interface](images/home.jpg)
 </details>
+
+## Author and Acknowledgments
+
+- **Author:** Leon
+- **Project Inspiration:** Special thanks to [Sdppp](https://github.com/zombieyang/sd-ppp) project for providing valuable ideas and inspiration
+- **Acknowledgments:** Thanks to the open source community for their support and contributions that made this project possible and continuously improving
