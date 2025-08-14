@@ -1,0 +1,75 @@
+{
+    "id": "com.adobe.uxp.starter.svelte",
+    "name": "快图AI",
+    "version": "1.1.1",
+    "main": "index.html",
+    "manifestVersion": 6,
+    "host": {
+        "app": "PS",
+        "minVersion": "22.0.0"
+    },
+    "requirements": {
+        "apps": [
+            {
+                "name": "Photoshop",
+                "apiVersion": "2.0.0"
+            }
+        ]
+    },
+    "entrypoints": [
+        {
+            "type": "panel",
+            "id": "pipixiaAI",
+            "label": "快图AI主界面",
+            "minimumSize": {"width": 230, "height": 200},
+            "maximumSize": {"width": 2000, "height": 2000},
+            "preferredDockedSize": {"width": 230, "height": 300}
+        }, {
+            "type": "panel",
+            "id": "firstPanel",
+            "label": "结果管理器",
+            "minimumSize": {"width": 230, "height": 200},
+            "maximumSize": {"width": 2000, "height": 2000},
+            "preferredDockedSize": {"width": 230, "height": 300}
+        }, {
+            "type": "panel",
+            "id": "secondPanel",
+            "label": "管理器2",
+            "minimumSize": {"width": 230, "height": 200},
+            "maximumSize": {"width": 2000, "height": 2000},
+            "preferredDockedSize": {"width": 230, "height": 300}
+        }
+    ],
+    "requiredPermissions": {
+		"localFileSystem": "fullAccess",
+		"launchProcess": {
+			"schemes": [
+				"https",
+				"slack",
+				"file",
+				"ws",
+				"mailto"
+			],
+			"extensions": [
+				".xd",
+				".psd",
+				".bat",
+				".cmd",
+				".sh"
+			]
+		},
+		"network": {
+			"domains": "all"
+		},
+		"clipboard": "readAndWrite",
+		"webview": {
+			"allow": "yes",
+			"domains": "all",
+			"enableMessageBridge": "localAndRemote"
+		},
+		"ipc": {
+			"enablePluginCommunication": true
+		},
+		"allowCodeGenerationFromStrings": true
+	}
+} 

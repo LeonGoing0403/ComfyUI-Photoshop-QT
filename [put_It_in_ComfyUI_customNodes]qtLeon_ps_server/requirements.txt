@@ -1,0 +1,1 @@
+python-socketio==5.12.1

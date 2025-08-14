@@ -1,0 +1,34 @@
+
+.spinner[data-v-fd51e330] {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin-fd51e330 1s linear infinite;
+}
+@keyframes spin-fd51e330 {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+.recording-button-blink[data-v-f84f9a0f] {
+  animation: blink-f84f9a0f 1s infinite;
+}
+@keyframes blink-f84f9a0f {
+0%,
+  100% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.5;
+}
+}
+
+[data-v-a5b1f8dd] .p-panel-content {
+  padding: 0;
+}

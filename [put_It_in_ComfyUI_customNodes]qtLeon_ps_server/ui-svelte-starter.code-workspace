@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../psplugin/ui-svelte-starter"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../ComfyUI-Easy-Use"
+		}
+	],
+	"settings": {}
+}
