@@ -2,6 +2,13 @@
 ![Plugin Banner](images/top.jpg)
 
 [中文](README.md) | English
+### 📽️ Video Demonstration（A total of six）
+
+<div align="center">
+
+[![ComfyUI-Photoshop-QTLeon 插件演示](https://img.youtube.com/vi/4CUP8-5TapY/maxresdefault.jpg)](https://youtu.be/4CUP8-5TapY)
+
+</div>
 
 ## 🌟 Project Introduction
 
@@ -31,8 +38,52 @@ After a year-long journey exploring the ComfyUI ecosystem, I developed this prof
 4. 📊 **System Features**
    - Complete operation logging
    - Bilingual interface (CN/EN)
-   
-📽️ **Check out the demo video below for more exciting features!**
+
+5. 🎬 **Feature Demonstrations**
+
+<details open>
+<summary>GIF: Opening Web Pages in PS</summary>
+
+![Open Web Demo](images/open_web.gif)
+</details>
+
+<details open>
+<summary>GIF: Auto Selection Area & Mask Setting</summary>
+
+![Selection Demo](images/selection_get.gif)
+</details>
+
+<details open>
+<summary>GIF: Text Input Module</summary>
+
+![Text Input Demo](images/text_input.gif)
+</details>
+
+<details open>
+<summary>GIF: Translation Module</summary>
+
+![Translation Demo](images/t2.gif)
+</details>
+
+<details open>
+<summary>GIF: Value Management</summary>
+
+![Value Management Demo](images/valueSend.gif)
+</details>
+
+<details open>
+<summary>GIF: Image Management</summary>
+
+![Image Management Demo](images/imageSend.gif)
+</details>
+
+<details open>
+<summary>GIF: Auto Mode</summary>
+
+![Auto Mode Demo](images/auto.gif)
+</details>
+
+
 
 ### 🔔 Open Source Notes
 

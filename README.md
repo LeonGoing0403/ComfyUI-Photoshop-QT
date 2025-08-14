@@ -1,10 +1,15 @@
-
-
 # ComfyUI-Photoshop-QTLeon 快图 PS 插件开源指南
+
 ![节点目录结构](images/top.jpg)
 
 中文 | [English](README_EN.md)
+### 📽️ 视频操作教程（共六部）
 
+<div align="center">
+
+[![ComfyUI-Photoshop-QTLeon 插件演示](https://img.youtube.com/vi/4CUP8-5TapY/maxresdefault.jpg)](https://youtu.be/4CUP8-5TapY)
+
+</div>
 ## 🌟 项目介绍
 
 > 🎨 打造 ComfyUI 与 Photoshop 的完美桥梁
@@ -13,56 +18,98 @@
 
 在深入 ComfyUI 生态系统一年多的探索之旅中，我开发了这款连接 Photoshop 和 ComfyUI 的专业插件。作为企业级项目的精简版本，它保留了核心功能，同时更加轻量易用。
 
-- 🚀 **开发时间：** 2025年3月起
-
+- 🚀 **开发时间：** 2025 年 3 月起
 
 ### ⭐ 核心特性
 
 > 快人一步，灵感落成图
 
 1. 🎛️ **模块化设计**
+
    - 预设 10 种输入输出模块
    - 支持自定义工作流封装
-   
+
 2. 🖼️ **可视化管理**
    - PS 内置结果管理器
    - 图片生成实时预览
-   
 3. 🔄 **参数管理**
    - 历史参数一键复用
    - 无缝工作流集成
-   
 4. 📊 **系统功能**
    - 完整运行日志追踪
    - 双语界面（中英文）
-   
+
+<details open>
+<summary>GIF：PS内打开Web页面</summary>
+
+![网页打开演示](images/open_web.gif)
+</details>
+
+<details open>
+<summary>GIF：抓取图片的选区并自动设置蒙版</summary>
+
+![选区功能演示](images/selection_get.gif)
+</details>
+
+<details open>
+<summary>GIF：文字输入功能</summary>
+
+![文字输入演示](images/text_input.gif)
+</details>
+
+<details open>
+<summary>GIF：翻译模块功能</summary>
+
+![翻译功能演示](images/t2.gif)
+</details>
+
+<details open>
+<summary>GIF：结果管理器数值发送</summary>
+
+![数值管理演示](images/valueSend.gif)
+</details>
+
+<details open>
+<summary>GIF：结果管理器图片发送</summary>
+
+![图片管理演示](images/imageSend.gif)
+</details>
+
+<details open>
+<summary>GIF：自动模式演示</summary>
+
+![自动模式演示](images/auto.gif)
+</details>
+
+
+
 📽️ **更多精彩功能演示请查看下方视频！**
 
 ### 🔔 开源说明
 
-> v1版本由于我的时间不足，暂时仅支持核心功能，后续会持续优化，逐步完善更多功能到开源版本
+> v1 版本由于我的时间不足，暂时仅支持核心功能，后续会持续优化，逐步完善更多功能到开源版本
 
-- 🚫 移除：企业端的诸多会员功能，如会员登录、服务器校验，企业API直接调用生图功能等
+- 🚫 移除：企业端的诸多会员功能，如会员登录、服务器校验，企业 API 直接调用生图功能等
 - 💬 支持：遇到问题欢迎反馈
-
-
 
 ## 1. （必要）安装插件和依赖
 
 首先，你需要将插件下载到 `custom_nodes` 文件夹中。
 
 1. 打开终端，下载节点文件并进入节点的根目录：
+
    ```bash
    cd custom_nodes/qtLeon_ps_server
    ```
 
    <details>
    <summary>图示：查看节点目录结构图</summary>
-   
+
    ![节点目录结构](images/nodes.png)
    </details>
 
 2. 安装节点所需的依赖：
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -81,11 +128,13 @@ activeWorkflow?.changeTracker?.store();
 ```
 
 1. 找到 ComfyUI 前端项目的静态文件目录。例如：
+
    ```bash
    /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/comfyui_frontend_package/static
    ```
 
 2. 进入该目录：
+
    ```bash
    cd /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/comfyui_frontend_package/static
    ```
@@ -94,7 +143,7 @@ activeWorkflow?.changeTracker?.store();
 
    <details>
    <summary>图示：查看前端静态文件目录</summary>
-   
+
    ![前端静态文件目录](images/f_static.png)
    </details>
 
@@ -103,6 +152,7 @@ activeWorkflow?.changeTracker?.store();
 为了让 Photoshop 端能够正确运行和监控工作流状态，你需要将 ComfyUI 的工作流面板设置为侧边栏显示。
 
 1. 启动 ComfyUI 的后端服务器。在 ComfyUI 根目录下运行：
+
    ```bash
    python main.py
    ```
@@ -113,7 +163,7 @@ activeWorkflow?.changeTracker?.store();
 
    <details>
    <summary>图示：查看设置按钮位置</summary>
-   
+
    ![设置按钮位置](images/settings.png)
    </details>
 
@@ -121,7 +171,7 @@ activeWorkflow?.changeTracker?.store();
 
    <details>
    <summary>图示：查看工作流设置选项</summary>
-   
+
    ![工作流设置选项](images/settings2.png)
    </details>
 
@@ -162,12 +212,14 @@ activeWorkflow?.changeTracker?.store();
 <summary>图示：查看服务器代码修改示例</summary>
 
 ![服务器代码修改](images/ServerCodeChaned.png)
+
 </details>
 
 <details>
 <summary>图示：查看错误提示示例</summary>
 
 ![错误提示](images/error.jpg)
+
 </details>
 
 ## 5. 启动并使用插件
@@ -178,6 +230,7 @@ activeWorkflow?.changeTracker?.store();
 <summary>图示：查看插件界面预览</summary>
 
 ![插件主界面](images/home.jpg)
+
 </details>
 
 ## 作者与鸣谢
