@@ -92,6 +92,7 @@ After a year-long journey exploring the ComfyUI ecosystem, I developed this prof
 
 - 🚫 Removed: Enterprise member features such as member login, server verification, and enterprise API direct image generation
 - 💬 Support: Feedback is welcome on any issues
+- ⭐ **Special Note**: The current version is obfuscated. Once the project reaches 1000 stars, all unobfuscated source code will be released, welcoming capable developers to create their own versions
 
 
 
