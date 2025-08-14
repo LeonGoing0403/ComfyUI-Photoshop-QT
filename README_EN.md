@@ -1,7 +1,8 @@
 # ComfyUI-Photoshop-QTLeon Plugin Guide
+[中文](README.md) | English
 ![Plugin Banner](images/top.jpg)
 
-[中文](README.md) | English
+
 ### 📽️ Video Demonstration（A total of six）
 
 <div align="center">

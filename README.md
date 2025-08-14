@@ -1,8 +1,9 @@
 # ComfyUI-Photoshop-QTLeon 快图 PS 插件开源指南
 
+中文 | [English](README_EN.md)
+
 ![节点目录结构](images/top.jpg)
 
-中文 | [English](README_EN.md)
 ### 📽️ 视频操作教程（共六部）
 
 <div align="center">
@@ -43,45 +44,50 @@
 <summary>GIF：PS内打开Web页面</summary>
 
 ![网页打开演示](images/open_web.gif)
+
 </details>
 
 <details open>
 <summary>GIF：抓取图片的选区并自动设置蒙版</summary>
 
 ![选区功能演示](images/selection_get.gif)
+
 </details>
 
 <details open>
 <summary>GIF：文字输入功能</summary>
 
 ![文字输入演示](images/text_input.gif)
+
 </details>
 
 <details open>
 <summary>GIF：翻译模块功能</summary>
 
 ![翻译功能演示](images/t2.gif)
+
 </details>
 
 <details open>
 <summary>GIF：结果管理器数值发送</summary>
 
 ![数值管理演示](images/valueSend.gif)
+
 </details>
 
 <details open>
 <summary>GIF：结果管理器图片发送</summary>
 
 ![图片管理演示](images/imageSend.gif)
+
 </details>
 
 <details open>
 <summary>GIF：自动模式演示</summary>
 
 ![自动模式演示](images/auto.gif)
+
 </details>
-
-
 
 📽️ **更多精彩功能演示请查看下方视频！**
 
